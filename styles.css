@@ -1,24 +1,31 @@
 /*  your css code here. If applicable */
 
-container{
-	display: flex;
-	justify-content:center;
-	text-align: center;
-	flex-wrap:wrap;
-	border: 2px solid black;
-	width: 700px;
-	background-color:grey;
-	height: 200px;
-	border-radius: 50px;
-	padding: auto;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
-.item{
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
-	margin: auto 10px;
-	
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: #fff;
 }
+
+.container div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
 .green{
 	background-color: green;
 }
